@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Create Employee</title>
+</head>
+<body>
+	<div style="padding-left:100px;font-family: monospace;">
+		<h2>Create Category</h2>
+		<form action="rest/category/create" method="POST">
+			<div style="width: 200px; text-align: left;">
+				<div style="padding:10px;">
+					Category ID: <input name="id" />
+				</div>
+				<div style="padding:10px;">
+					Category Name: <input name="name" />
+				</div>
+				<div style="padding:10px;">
+					Category Parent ID: <input name="parent" />
+				</div>
+				<div style="padding:10px;">
+					Category is Abstract: <input name="abstract" />
+				</div>
+								
+				<div style="padding:10px;text-align:center">
+					<input type="submit" value="Submit" />
+				</div>
+			</div>
+		</form>
+	</div>
+</body>
+</html>

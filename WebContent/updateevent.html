@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Update Event</title>
+</head>
+<body>
+	<div style="padding-left:100px;font-family: monospace;">
+		<h2>Update Event</h2>
+		<form action="rest/event/update" method="POST">
+			<div style="width: 200px; text-align: left;">
+				
+				<div style="padding:10px;">
+					Event Name: <input name="name" />
+				</div>
+				<div style="padding:10px;">
+					Event Description: <input name="description" />
+				</div>
+				<div style="padding:10px;">
+					Event Date: <input name="date" />
+				</div>
+				<div style="padding:10px;">
+					Participating Employees: <input name="emps" />
+					provide list of emp ids in comma separated list. 
+					eg:1,2,3,4
+				</div>
+				
+				
+				<div style="padding:10px;text-align:center">
+					<input type="submit" value="Submit" />
+				</div>
+			</div>
+		</form>
+	</div>
+</body>
+</html>
